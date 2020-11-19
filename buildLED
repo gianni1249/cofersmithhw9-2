@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo Compiling program
+g++ led.cpp -o myLED.cgi -lcgicc
+echo Done compiling 
